@@ -1,12 +1,13 @@
 import React from 'react';
 
 const Review = ({
-    headline,
-    byline,
-    link,
-    summary_short
+  headline,
+  byline,
+  link,
+  summary_short
 }) => {
   return (
+
     <div
       key={headline}
       className="review"
@@ -16,20 +17,20 @@ const Review = ({
           className="review-link"
           href={link.url}
         >
-        {headline}
+          {headline}
         </a>
         <br/>
         <span className="author">{byline}</span>
       </header>
       <blockquote>{summary_short}</blockquote>
     </div>
-  )
-}
+  );
+};
 
-const MovieReviews = ({ reviews }) => <div className="review-list">{reviews.map(Review)}
+const MovieReviews = ({ reviews }) => <div className="review-list">{reviews.map(Review)}</div>;
 
 MovieReviews.defaultProps = {
   reviews: []
-}
+};
 
-export default MovieReviews
+export default MovieReviews;
