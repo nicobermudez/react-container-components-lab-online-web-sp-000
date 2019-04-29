@@ -1,5 +1,3 @@
-const MovieReviews = ({ review }) => (
-  <div className="review-list">
-    <div
-  </div>
-)
+import React from 'react';
+
+
