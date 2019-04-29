@@ -25,6 +25,7 @@ class SearchableMovieReviewsContainer extends Component {
           />
           <button type="submit">Submit</button>
         </form>
+        {typeof this.state.reviews === 'object' && this.state.reviews.length > 0 && <h2>Movie Review By Search:</h2>}
     )
   }
 }
