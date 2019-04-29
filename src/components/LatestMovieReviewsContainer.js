@@ -10,17 +10,17 @@ class LatestMovieReviewsContainer extends Component {
   constructor() {
     super()
     this.state = {
-      latest-movie-reviews: []
+      reviews: []
     }
   }
 
   componentDidMount() {
     fetch(URL)
     .then(response => response.json())
-    .then(data => this.setState({latest-movie-reviews}))
+    .then(data => this.setState({reviews}))
   }
 
   render() {
-    return <MovieReviews latest-movie-reviews={this.state.latest-movie-reviews}
+    return <MovieReviews latest-movie-reviews={this.state.reviews}
   }
 }
