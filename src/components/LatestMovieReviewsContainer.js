@@ -19,4 +19,8 @@ class LatestMovieReviewsContainer extends Component {
     .then(response => response.json())
     .then(data => this.setState({latest-movie-reviews}))
   }
+
+  render() {
+    return <MovieReviews
+  }
 }
