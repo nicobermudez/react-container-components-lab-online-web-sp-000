@@ -20,6 +20,7 @@ const Review = ({
         <br/>
         <span className="author">{byline}</span>
       </header>
+      <blockquote>{summary_short}</blockquote>
     </div>
   )
 }
