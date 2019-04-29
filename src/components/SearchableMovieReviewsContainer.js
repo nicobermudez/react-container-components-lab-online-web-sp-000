@@ -11,6 +11,12 @@ class SearchableMovieReviewsContainer extends Component {
     searchTerm: '',
     reviews: []
   }
+
+  render() {
+    return (
+      
+    )
+  }
 }
 
 export default SearchableMovieReviewsContainer;
