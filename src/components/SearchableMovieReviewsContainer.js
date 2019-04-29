@@ -22,6 +22,9 @@ class SearchableMovieReviewsContainer extends Component {
             type="text"
             style={{ width: 300 }}
             onChange={this.handleSearchInputChange}
+          />
+          <button type="submit">Submit</button>
+        </form>
     )
   }
 }
