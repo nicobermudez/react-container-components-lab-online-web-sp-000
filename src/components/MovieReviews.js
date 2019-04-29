@@ -26,4 +26,4 @@ const Review = ({
   )
 }
 
-const MovieReviews = ({ reviews })
+const MovieReviews = ({ reviews }) => <div className="review-list">{reviews.map(Review)}
