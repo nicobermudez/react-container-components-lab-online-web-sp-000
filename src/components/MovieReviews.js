@@ -10,6 +10,6 @@ const Review = ({
       key={headline}
       className="review"
     >
-    </div<
+    </div>
   )
 }
