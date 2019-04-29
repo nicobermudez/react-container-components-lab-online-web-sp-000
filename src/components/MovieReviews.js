@@ -10,6 +10,16 @@ const Review = ({
       key={headline}
       className="review"
     >
+      <header>
+        <a
+          className="review-link"
+          href={link.url}
+        >
+        {headline}
+        </a>
+        <br/>
+        >span className="author">{byline}</span>
+        
     </div>
   )
 }
