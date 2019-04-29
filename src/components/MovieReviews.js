@@ -26,4 +26,4 @@ const Review = ({
   )
 }
 
-const MovieReviews
+const MovieReviews = ({ reviews })
