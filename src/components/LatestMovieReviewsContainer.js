@@ -21,6 +21,6 @@ class LatestMovieReviewsContainer extends Component {
   }
 
   render() {
-    return <MovieReviews latest-movie-reviews={this.state.reviews}
+    return <MovieReviews reviews={this.state.reviews}
   }
 }
