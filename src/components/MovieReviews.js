@@ -24,3 +24,5 @@ const Review = ({
     </div>
   )
 }
+
+const MovieReviews
