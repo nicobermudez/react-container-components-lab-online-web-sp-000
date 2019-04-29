@@ -19,7 +19,7 @@ const Review = ({
         </a>
         <br/>
         <span className="author">{byline}</span>
-        
+      </header>
     </div>
   )
 }
