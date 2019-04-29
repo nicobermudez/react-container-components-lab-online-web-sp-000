@@ -1,1 +1,3 @@
-const MovieReviews = ({review, })
+const MovieReviews = ({ review }) => (
+  
+)
