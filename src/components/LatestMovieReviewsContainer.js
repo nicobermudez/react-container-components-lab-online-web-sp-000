@@ -17,7 +17,7 @@ class LatestMovieReviewsContainer extends Component {
   componentDidMount() {
     fetch(URL)
     .then(response => response.json())
-    .then(data => this.setState({reviews}))
+    .then(data => this.setState({reviews: data.results}))
   }
 
   render() {
